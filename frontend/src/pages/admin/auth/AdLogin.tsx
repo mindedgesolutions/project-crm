@@ -15,7 +15,7 @@ const AdLogin = () => {
       <div className="flex justify-end items-end">
         <div className="w-full md:max-w-md p-6">
           <div className="flex justify-center items-center mb-8">
-            <h3 className="text-5xl font-bold text-gray-800 tracking-widest">
+            <h3 className="text-5xl font-bold text-muted-foreground tracking-widest">
               CRM
             </h3>
           </div>
@@ -62,7 +62,7 @@ const AdLogin = () => {
               </div>
               <div className="flex flex-row justify-end items-center">
                 <Link to={`/admin/forgot-password`}>
-                  <p className="text-sm tracking-widest text-gray-800 hover:text-gray-600">
+                  <p className="text-sm tracking-widest text-muted-foreground hover:text-gray-600">
                     Forgot password?
                   </p>
                 </Link>
