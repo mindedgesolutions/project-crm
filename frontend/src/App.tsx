@@ -9,7 +9,10 @@ const router = createBrowserRouter([
   {
     path: `/admin`,
     element: <Crm.AdLayout />,
-    children: [{ index: true, element: <Crm.AdDashboard /> }],
+    children: [
+      { path: `dashboard`, element: <Crm.AdDashboard /> },
+      { path: `users`, element: <Crm.AdUsers /> },
+    ],
   },
   // Super admin routes ends ------
 ]);

@@ -15,7 +15,7 @@ const AdForgotPassword = () => {
             <h3 className="text-5xl font-bold text-gray-800 tracking-widest">
               CRM
             </h3>
-            <p className="text-justify tracking-wide">
+            <p className="text-justify text-sm md:text-[16px] tracking-wide">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ex
               unde deserunt accusantium voluptatum repellendus dolorum enim ut
               ea quasi?
